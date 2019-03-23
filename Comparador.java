@@ -6,11 +6,9 @@ import java.util.List;
 
 public class Comparador {
 	
-	//agregar cada elemento a arraylist
-	//compareTo los ordene por mayor a menor precio
-	//imprimir primer y ultimo objeto
+	/*Resultado solicitado:
 	
-	/*Nombre: Coca-Cola Zero /// Litros: 1.5 /// Precio: $20
+	Nombre: Coca-Cola Zero /// Litros: 1.5 /// Precio: $20
 
 	Nombre: Coca-Cola /// Litros: 1.5 /// Precio: $18
 
@@ -20,9 +18,9 @@ public class Comparador {
 
 	=============================
 
-	Producto más caro: Frutillas
+	Producto mÃ¡s caro: Frutillas
 
-	Producto más barato: Coca-Cola */
+	Producto mÃ¡s barato: Coca-Cola */
 
 	public static void main(String[] args) {
 		ProductoLiquido producto1 = new ProductoLiquido("Coca-Cola Zero", 20, 1.5);
@@ -44,8 +42,8 @@ public class Comparador {
 		System.out.println(producto4.toString());
 
 		System.out.println("=============================");
-		System.out.println("Producto más caro: " + ((listaDeProductos.get(listaDeProductos.size()-1)).getNombre()));
-		System.out.println("Producto más barato: " + ((listaDeProductos.get(0)).getNombre()));
+		System.out.println("Producto mÃ¡s caro: " + ((listaDeProductos.get(listaDeProductos.size()-1)).getNombre()));
+		System.out.println("Producto mÃ¡s barato: " + ((listaDeProductos.get(0)).getNombre()));
 		
 	}
 }
