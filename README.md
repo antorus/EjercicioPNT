@@ -31,7 +31,7 @@ Para imprimir por pantalla, sobrescribir el método toString()
 
 ## Resolución
 
-El repositorio trae tanto la carpeta de proyecto como los archivos fuente .java para facilitar la instalación.
+El repositorio trae tanto la carpeta de proyecto como los archivos fuente .java para facilitar la comprobación.
 
 ## Licencia
 
